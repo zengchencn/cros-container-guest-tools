@@ -1,0 +1,6 @@
+bazel-bin
+bazel-container-guest-tools
+bazel-cros-container-guest-tools
+bazel-genfiles
+bazel-out
+bazel-testlogs

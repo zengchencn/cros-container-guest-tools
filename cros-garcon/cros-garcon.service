@@ -1,0 +1,10 @@
+[Unit]
+Description=Chromium OS Garcon Bridge
+After=sommelier@0.service sommelier-x@0.service
+
+[Service]
+Type=simple
+ExecStart=/opt/google/cros-containers/bin/garcon --server
+
+[Install]
+WantedBy=default.target
